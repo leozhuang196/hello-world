@@ -1,7 +1,5 @@
 pipeline {
-    agent {
-        label 'master' /* 执行节点 */
-    }
+    agent any
     stages {
         stage('Build') {
             steps {
